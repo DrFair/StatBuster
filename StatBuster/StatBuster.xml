@@ -179,7 +179,7 @@
                             </Anchors>
                             <FontHeight val="14" />
                         </FontString>
-                        <FontString name="LeftDesc" inherits="GameFontNormal" font="Fonts\FRIENDS.TTF" text="Ctrl+LeftClick to add items here">
+                        <FontString name="LeftDesc" inherits="GameFontNormal" font="Fonts\FRIENDS.TTF" text="Alt+LeftClick to add items here">
                             <Size y="12" />
                             <Anchors>
                                 <Anchor point="TOPLEFT" relativeTo="SB_LeftPanel" relativePoint="BOTTOMLEFT" />
@@ -278,7 +278,7 @@
                             </Anchors>
                             <FontHeight val="14" />
                         </FontString>
-                        <FontString name="RightDesc" inherits="GameFontNormal" font="Fonts\FRIENDS.TTF" text="Ctrl+RightClick to add items here">
+                        <FontString name="RightDesc" inherits="GameFontNormal" font="Fonts\FRIENDS.TTF" text="Alt+RightClick to add items here">
                             <Size y="12" />
                             <Anchors>
                                 <Anchor point="TOPLEFT" relativeTo="SB_RightPanel" relativePoint="BOTTOMLEFT" />
