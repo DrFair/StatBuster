@@ -55,7 +55,7 @@ HandleModifiedItemClick = function(item)
     end
 
     -- Only act on Ctrl clicks
-    if not IsControlKeyDown() then
+    if not IsAltKeyDown() then
         return origClick(item);
     end
 
@@ -79,7 +79,7 @@ ChatFrame_OnHyperlinkShow = function(...)
     end
 
     -- Only act on Ctrl clicks
-    if not IsControlKeyDown() then
+    if not IsAltKeyDown() then
         return origLink(...);
     end
 
